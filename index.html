@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şınav Takip Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Şınav Takip</h1>
+    <div class="out-boxes">
+
+        <div class="score-box">
+            <h3>Today</h3>
+            <p id="number-of-today">0</p>
+        </div>
+
+        <div class="score-box">
+            <h3>Total Score</h3>
+            <p id="number-of-all">0</p>
+        </div>
+    </div>
+    <div id="adding-container" class="out-boxes">
+        <input type="number" id="push-up-input" placeholder="How many push-up have you done today?">
+        <button id="adding-button">Add</button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+</body>
+</html>

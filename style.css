@@ -1,0 +1,89 @@
+      *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background-color:#121214;
+            color: #e1e1e6;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container{
+            background-color: #202024;
+            padding:30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            width: 100%;
+            text-align: center;
+            max-width: 450px;
+        }
+        h1{
+            font-size: 24px;
+            color: #04d361;
+            margin-bottom: 25px;
+        }
+        .out-boxes{
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .score-box{
+            flex: 1;
+            background-color: #29292e;
+            padding: 20px 15px;
+            border-radius: 8px;
+            border: 1px solid #323238;
+        }
+        .score-box h3{
+            font-size: 13px;
+            font-weight: bold;
+            color: #fff;
+        }
+        #number-of-today, #number-of-all {
+           font-size: 32px;
+           font-weight: bold;
+           color: #fff;
+        
+        }
+        #adding-container {
+    margin-bottom: 0;
+}
+
+
+#push-up-input {
+    flex: 1; 
+    background-color: #121214;
+    border: 1px solid #323238;
+    padding: 14px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#push-up-input:focus {
+    outline: none;
+    border-color: #04d361;
+}
+
+#adding-button {
+    background-color: #04d361;
+    color: #000;
+    border: none;
+    padding: 0 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#adding-button:hover {
+    background-color: #00b34d;
+}
